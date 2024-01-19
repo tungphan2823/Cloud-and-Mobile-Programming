@@ -1,0 +1,33 @@
+About Meeting Application
+
+Version: 1.0
+
+Welcome to the Meeting Application! This app is designed to help you manage your meetings and appointments efficiently. Whether you're a professional or a student, organizing your meetings has never been easier.
+
+Features:
+
+- Create, update meetings.
+- Set meeting titles, locations, participants, dates, and times.
+- Customize the app's appearance in the settings.
+- Store your meetings securely in a local database.
+
+How to Use:
+
+1. Create a Meeting:
+   - Click the "Add Meeting" button to create a new meeting.
+   - Fill in the meeting details, including title, location, participants, date, and time.
+   - Click "Submit" to save the meeting.
+
+2. View and Manage Meetings:
+   - Click the "Search Meetings" button to view and search your meetings.
+   - Update or delete meetings as needed.
+
+3. Customize Settings:
+   - Adjust the font size, font color, background color, and font family to suit your preferences.
+
+4. Storage Options:
+   - You can choose whether to store your meetings locally or externally in the settings.
+
+We hope you find this app useful for staying organized and managing your meetings effectively. If you have any feedback or suggestions, please feel free to reach out to us.
+
+Thank you for using the Meeting Application!

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Task 3" />
+
+    <EditText
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="30sp"
+        android:layout_marginBottom="16dp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:rowCount="5">
+
+        <!-- Row 1 -->
+        <Button
+            android:id="@+id/btn1"
+            
+            android:text="1"
+            android:onClick="onButtonClick" />
+        <Button
+            android:id="@+id/btn2"
+            
+            android:text="2"
+            android:onClick="onButtonClick" />
+        <Button
+            android:id="@+id/btn3"
+            
+            android:text="3"
+            android:onClick="onButtonClick" />
+        <Button
+            android:id="@+id/btnPlus"
+            
+            android:text="+"
+            android:onClick="onButtonClick" />
+
+        <!-- Row 2 -->
+        <Button
+            android:id="@+id/btn4"
+            
+            android:text="4"
+            android:onClick="onButtonClick" />
+        <Button
+            android:id="@+id/btn5"
+            
+            android:text="5"
+            android:onClick="onButtonClick" />
+        <Button
+            android:id="@+id/btn6"
+            
+            android:text="6"
+            android:onClick="onButtonClick" />
+        <Button
+            android:id="@+id/btnMinus"
+            
+            android:text="-"
+            android:onClick="onButtonClick" />
+
+        <!-- Row 3 -->
+        <Button
+            android:id="@+id/btn7"
+            
+            android:text="7"
+            android:onClick="onButtonClick" />
+        <Button
+            android:id="@+id/btn8"
+            
+            android:text="8"
+            android:onClick="onButtonClick" />
+        <Button
+            android:id="@+id/btn9"
+            
+            android:text="9"
+            android:onClick="onButtonClick" />
+        <Button
+            android:id="@+id/btnMultiply"
+            
+            android:text="*"
+            android:onClick="onButtonClick" />
+
+        <!-- Row 4 -->
+        <Button
+            android:id="@+id/btnClear"
+            
+            android:text="C"
+            android:onClick="onButtonClick" />
+        <Button
+            android:id="@+id/btn0"
+            
+            android:text="0"
+            android:onClick="onButtonClick" />
+        <Button
+            android:id="@+id/btnEqual"
+            
+            android:text="="
+            android:onClick="onButtonClick" />
+        <Button
+            android:id="@+id/btnDivide"
+            
+            android:text="/"
+            android:onClick="onButtonClick" />
+
+        <!-- Row 5 -->
+        <Button
+            android:id="@+id/btnPercent"
+            
+            android:text="%"
+            android:onClick="onButtonClick" />
+    </GridLayout>
+</LinearLayout>

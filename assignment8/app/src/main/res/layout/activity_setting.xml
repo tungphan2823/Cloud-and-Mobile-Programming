@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/sampleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sample Text"
+        android:textSize="16sp" />
+
+    <SeekBar
+        android:id="@+id/fontSizeSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sampleText"
+        android:layout_marginTop="20dp"
+        android:max="30"
+        android:progress="16" />
+
+    <Spinner
+        android:id="@+id/fontColorSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fontSizeSeekBar"
+        android:layout_marginTop="20dp"
+        android:text="Save Settings" />
+    <Spinner
+        android:id="@+id/backgroundColorSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fontColorSpinner"
+        android:layout_marginTop="20dp"
+        android:text="Save Settings" />
+
+    <Spinner
+        android:id="@+id/fontFamilySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/backgroundColorSpinner"
+        android:layout_marginTop="32dp" />
+
+    <Button
+        android:id="@+id/saveSettingsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/backgroundColorSpinner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="Save Settings" />
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_below="@id/saveSettingsButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp" />
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:layout_below="@id/saveSettingsButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>

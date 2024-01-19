@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Summary"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:padding="8dp"
+        android:gravity="center"
+        android:textStyle="bold" />
+    <!-- Title Section -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:padding="8dp" />
+
+    <!-- Place Section -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Place: "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/placeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Place"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:padding="8dp" />
+
+    <!-- Participants Section -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Participants: "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/participantsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Participants"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:padding="8dp" />
+
+    <!-- Date Section -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date: "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/dateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:padding="8dp" />
+
+    <!-- Time Section -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/timeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:padding="8dp" />
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back" />
+</LinearLayout>
